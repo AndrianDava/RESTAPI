@@ -3,9 +3,9 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'https://andzapi.sekha.me';
+var url = 'https://andzapi.my.id';
 try {
-if(url == 'https://andzapi.sekha.me') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
+if(url == 'https://andzapi.my.id') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
